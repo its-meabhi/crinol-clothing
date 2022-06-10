@@ -1,0 +1,15 @@
+.footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+}
+.footer-area span{
+    font-size: 18px;
+}
+.footer-area a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}

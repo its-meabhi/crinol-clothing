@@ -1,0 +1,51 @@
+.items {
+    display: flex;
+    padding: 20px 5px;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    margin: auto 6px;
+}
+
+.image {
+    height: 300px;
+    width: 260px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items button{
+    display: none;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    top: 250px;
+    opacity: 0.9;
+    margin-left:22px;
+}
+
+.items:hover button{
+    display: block;
+}
+
+.items:hover .image{
+    opacity: 0.7;
+}
+
+@media screen and (max-width:400px) {
+    .image{
+        height: 280px;
+        width: 250px;
+        object-fit: cover;
+    }
+    .items button{
+        top: 220px;
+    }
+}

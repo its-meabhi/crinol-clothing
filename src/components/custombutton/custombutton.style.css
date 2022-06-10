@@ -1,0 +1,35 @@
+.custom-button {
+    height: 50px;
+    width: 200px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.custom-button:hover {
+    border: none;
+    color: white;
+    background: rgb(15, 15, 15);
+}
+
+.google{
+    background-color: #4285F4;
+}
+.google:hover{
+    background-color: #2e78f0 !important;
+    border: none;
+    color: white;
+}
+
+.invert{
+    background-color: rgb(238, 234, 234);
+    color: black;
+}
+
+.invert:hover{
+    color: white;
+    background: rgba(15, 15, 15);
+}
